@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -62,18 +62,18 @@
 		4A0ECC1D200D8C0200BA84A3 /* PFRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A9442200D0226005D8F4B /* PFRect.h */; };
 		4A0ECC1E200D8C0200BA84A3 /* ParseUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A947C200D0226005D8F4B /* ParseUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A0ECC1F200D8C0200BA84A3 /* PFActivityIndicatorTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9A943A200D0226005D8F4B /* PFActivityIndicatorTableViewCell.h */; };
-		4A0ECC74200D993000BA84A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC73200D993000BA84A3 /* UIKit.framework */; };
-		4A0ECC78200D995300BA84A3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC77200D995200BA84A3 /* StoreKit.framework */; };
-		4A0ECC7E200D997400BA84A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC7D200D997400BA84A3 /* CoreGraphics.framework */; };
-		4A0ECC8E200D9D1400BA84A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E4200D0598005D8F4B /* libsqlite3.tbd */; };
-		4A0ECC90200D9D2700BA84A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC8F200D9D2700BA84A3 /* Security.framework */; };
-		4A0ECC91200D9D3000BA84A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94F6200D125A005D8F4B /* AudioToolbox.framework */; };
-		4A0ECC93200D9D3900BA84A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC92200D9D3900BA84A3 /* CoreLocation.framework */; };
-		4A0ECC94200D9D4400BA84A3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E6200D05A5005D8F4B /* SystemConfiguration.framework */; };
-		4A51E4452027CC4E0066DE1A /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E43A2027CC330066DE1A /* ParseFacebookUtilsV4.framework */; };
-		7916B626243B916800F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B625243B916800F6A2EC /* Bolts.framework */; };
-		7916B63E243B934200F6A2EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; };
-		7916B63F243B934200F6A2EC /* Parse.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A0ECC74200D993000BA84A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC73200D993000BA84A3 /* UIKit.framework */; platformFilter = ios; };
+		4A0ECC78200D995300BA84A3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC77200D995200BA84A3 /* StoreKit.framework */; platformFilter = ios; };
+		4A0ECC7E200D997400BA84A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC7D200D997400BA84A3 /* CoreGraphics.framework */; platformFilter = ios; };
+		4A0ECC8E200D9D1400BA84A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E4200D0598005D8F4B /* libsqlite3.tbd */; platformFilter = ios; };
+		4A0ECC90200D9D2700BA84A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC8F200D9D2700BA84A3 /* Security.framework */; platformFilter = ios; };
+		4A0ECC91200D9D3000BA84A3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94F6200D125A005D8F4B /* AudioToolbox.framework */; platformFilter = ios; };
+		4A0ECC93200D9D3900BA84A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0ECC92200D9D3900BA84A3 /* CoreLocation.framework */; platformFilter = ios; };
+		4A0ECC94200D9D4400BA84A3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9A94E6200D05A5005D8F4B /* SystemConfiguration.framework */; platformFilter = ios; };
+		4A51E4452027CC4E0066DE1A /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E43A2027CC330066DE1A /* ParseFacebookUtilsV4.framework */; platformFilter = ios; };
+		7916B626243B916800F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B625243B916800F6A2EC /* Bolts.framework */; platformFilter = ios; };
+		7916B63E243B934200F6A2EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; platformFilter = ios; };
+		7916B63F243B934200F6A2EC /* Parse.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,18 +203,6 @@
 		4A9A947B200D0226005D8F4B /* ParseUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseUIConstants.h; sourceTree = "<group>"; };
 		4A9A947C200D0226005D8F4B /* ParseUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseUI.h; sourceTree = "<group>"; };
 		4A9A947E200D0226005D8F4B /* convert_images.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = convert_images.rb; sourceTree = "<group>"; };
-		4A9A9482200D02CE005D8F4B /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		4A9A9484200D02CE005D8F4B /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
-		4A9A9485200D02CE005D8F4B /* tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
-		4A9A9486200D02CE005D8F4B /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
-		4A9A9487200D02CE005D8F4B /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
-		4A9A9489200D02CE005D8F4B /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		4A9A948A200D02CE005D8F4B /* DynamicFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DynamicFramework.xcconfig; sourceTree = "<group>"; };
-		4A9A948B200D02CE005D8F4B /* StaticFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticFramework.xcconfig; sourceTree = "<group>"; };
-		4A9A948C200D02CE005D8F4B /* LogicTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LogicTests.xcconfig; sourceTree = "<group>"; };
-		4A9A948E200D02CE005D8F4B /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		4A9A948F200D02CE005D8F4B /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		4A9A9490200D02CE005D8F4B /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		4A9A9491200D02CE005D8F4B /* ParseUI-iOS-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ParseUI-iOS-Dynamic.xcconfig"; sourceTree = "<group>"; };
 		4A9A94DA200D04DE005D8F4B /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9A94E4200D0598005D8F4B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -223,6 +211,18 @@
 		4A9A94F6200D125A005D8F4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7916B619243B8EBA00F6A2EC /* ParseUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParseUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7916B625243B916800F6A2EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		7916B67A243B9C4900F6A2EC /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		7916B67C243B9C4900F6A2EC /* macOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
+		7916B67D243B9C4900F6A2EC /* tvOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
+		7916B67E243B9C4900F6A2EC /* iOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		7916B67F243B9C4900F6A2EC /* watchOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
+		7916B681243B9C4900F6A2EC /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		7916B682243B9C4900F6A2EC /* DynamicFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DynamicFramework.xcconfig; sourceTree = "<group>"; };
+		7916B683243B9C4900F6A2EC /* StaticFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticFramework.xcconfig; sourceTree = "<group>"; };
+		7916B684243B9C4900F6A2EC /* LogicTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = LogicTests.xcconfig; sourceTree = "<group>"; };
+		7916B686243B9C4900F6A2EC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		7916B687243B9C4900F6A2EC /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		7916B688243B9C4900F6A2EC /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -525,51 +525,51 @@
 		4A9A947F200D02CE005D8F4B /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
+				7916B679243B9C4900F6A2EC /* Shared */,
 				4A9A9491200D02CE005D8F4B /* ParseUI-iOS-Dynamic.xcconfig */,
-				4A9A9481200D02CE005D8F4B /* Shared */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
 		};
-		4A9A9481200D02CE005D8F4B /* Shared */ = {
+		7916B679243B9C4900F6A2EC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A9482200D02CE005D8F4B /* Common.xcconfig */,
-				4A9A9483200D02CE005D8F4B /* Platform */,
-				4A9A9488200D02CE005D8F4B /* Product */,
-				4A9A948D200D02CE005D8F4B /* Project */,
-				4A9A9490200D02CE005D8F4B /* Warnings.xcconfig */,
+				7916B67A243B9C4900F6A2EC /* Common.xcconfig */,
+				7916B67B243B9C4900F6A2EC /* Platform */,
+				7916B680243B9C4900F6A2EC /* Product */,
+				7916B685243B9C4900F6A2EC /* Project */,
+				7916B688243B9C4900F6A2EC /* Warnings.xcconfig */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		4A9A9483200D02CE005D8F4B /* Platform */ = {
+		7916B67B243B9C4900F6A2EC /* Platform */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A9484200D02CE005D8F4B /* macOS.xcconfig */,
-				4A9A9485200D02CE005D8F4B /* tvOS.xcconfig */,
-				4A9A9486200D02CE005D8F4B /* iOS.xcconfig */,
-				4A9A9487200D02CE005D8F4B /* watchOS.xcconfig */,
+				7916B67C243B9C4900F6A2EC /* macOS.xcconfig */,
+				7916B67D243B9C4900F6A2EC /* tvOS.xcconfig */,
+				7916B67E243B9C4900F6A2EC /* iOS.xcconfig */,
+				7916B67F243B9C4900F6A2EC /* watchOS.xcconfig */,
 			);
 			path = Platform;
 			sourceTree = "<group>";
 		};
-		4A9A9488200D02CE005D8F4B /* Product */ = {
+		7916B680243B9C4900F6A2EC /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A9489200D02CE005D8F4B /* Application.xcconfig */,
-				4A9A948A200D02CE005D8F4B /* DynamicFramework.xcconfig */,
-				4A9A948B200D02CE005D8F4B /* StaticFramework.xcconfig */,
-				4A9A948C200D02CE005D8F4B /* LogicTests.xcconfig */,
+				7916B681243B9C4900F6A2EC /* Application.xcconfig */,
+				7916B682243B9C4900F6A2EC /* DynamicFramework.xcconfig */,
+				7916B683243B9C4900F6A2EC /* StaticFramework.xcconfig */,
+				7916B684243B9C4900F6A2EC /* LogicTests.xcconfig */,
 			);
 			path = Product;
 			sourceTree = "<group>";
 		};
-		4A9A948D200D02CE005D8F4B /* Project */ = {
+		7916B685243B9C4900F6A2EC /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				4A9A948E200D02CE005D8F4B /* Debug.xcconfig */,
-				4A9A948F200D02CE005D8F4B /* Release.xcconfig */,
+				7916B686243B9C4900F6A2EC /* Debug.xcconfig */,
+				7916B687243B9C4900F6A2EC /* Release.xcconfig */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -789,7 +789,6 @@
 /* Begin XCBuildConfiguration section */
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A9A948E200D02CE005D8F4B /* Debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -827,7 +826,6 @@
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A9A948F200D02CE005D8F4B /* Release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -858,7 +856,8 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -917,7 +916,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -976,7 +979,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

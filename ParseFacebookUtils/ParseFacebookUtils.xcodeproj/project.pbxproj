@@ -18,12 +18,12 @@
 		4AAEAA68200C020E00AA7479 /* PFFacebookUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 813DFC851AB2510300F25A08 /* PFFacebookUtils.m */; };
 		4AAEAA69200C020E00AA7479 /* PFFacebookMobileAuthenticationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA09C71C178DED00B0F875 /* PFFacebookMobileAuthenticationProvider.m */; };
 		4AAEAA6A200C020E00AA7479 /* PFFacebookPrivateUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E35FD31BAA6F8400348526 /* PFFacebookPrivateUtilities.m */; };
-		7916B620243B914200F6A2EC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1351C720281889000F5FD5 /* FBSDKLoginKit.framework */; };
-		7916B622243B914200F6A2EC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1351C820281889000F5FD5 /* FBSDKCoreKit.framework */; };
-		7916B639243B92EE00F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B638243B92EE00F6A2EC /* Bolts.framework */; };
+		7916B620243B914200F6A2EC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1351C720281889000F5FD5 /* FBSDKLoginKit.framework */; platformFilter = ios; };
+		7916B622243B914200F6A2EC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1351C820281889000F5FD5 /* FBSDKCoreKit.framework */; platformFilter = ios; };
+		7916B639243B92EE00F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B638243B92EE00F6A2EC /* Bolts.framework */; platformFilter = ios; };
 		7916B63D243B92F500F6A2EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B63C243B92F500F6A2EC /* UIKit.framework */; platformFilter = ios; };
-		B9312D4923C4A2B5002D4A4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A7EE9D23C497D2003E606E /* SystemConfiguration.framework */; };
-		B9A7EEA523C49956003E606E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1350512027EA26000F5FD5 /* Parse.framework */; };
+		B9312D4923C4A2B5002D4A4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A7EE9D23C497D2003E606E /* SystemConfiguration.framework */; platformFilter = ios; };
+		B9A7EEA523C49956003E606E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1350512027EA26000F5FD5 /* Parse.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,15 +50,18 @@
 		4AAEAA92200C025100AA7479 /* ParseFacebookUtilsV4-iOS-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ParseFacebookUtilsV4-iOS-Dynamic.xcconfig"; sourceTree = "<group>"; };
 		7916B638243B92EE00F6A2EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		7916B63C243B92F500F6A2EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8121EA9F1D39862400AC0B02 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		8121EAA11D39862400AC0B02 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
-		8121EAA61D39862400AC0B02 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		8121EAA71D39862400AC0B02 /* DynamicFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DynamicFramework.xcconfig; sourceTree = "<group>"; };
-		8121EAA81D39862400AC0B02 /* LogicTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LogicTests.xcconfig; sourceTree = "<group>"; };
-		8121EAA91D39862400AC0B02 /* StaticFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticFramework.xcconfig; sourceTree = "<group>"; };
-		8121EAAB1D39862400AC0B02 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		8121EAAC1D39862400AC0B02 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		8121EAAD1D39862400AC0B02 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		7916B65E243B9C3F00F6A2EC /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		7916B660243B9C3F00F6A2EC /* macOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
+		7916B661243B9C3F00F6A2EC /* tvOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
+		7916B662243B9C3F00F6A2EC /* iOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		7916B663243B9C3F00F6A2EC /* watchOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
+		7916B665243B9C3F00F6A2EC /* Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		7916B666243B9C3F00F6A2EC /* DynamicFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DynamicFramework.xcconfig; sourceTree = "<group>"; };
+		7916B667243B9C3F00F6A2EC /* StaticFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticFramework.xcconfig; sourceTree = "<group>"; };
+		7916B668243B9C3F00F6A2EC /* LogicTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = LogicTests.xcconfig; sourceTree = "<group>"; };
+		7916B66A243B9C3F00F6A2EC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		7916B66B243B9C3F00F6A2EC /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		7916B66C243B9C3F00F6A2EC /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		813DFC841AB2510300F25A08 /* PFFacebookUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFacebookUtils.h; sourceTree = "<group>"; };
 		813DFC851AB2510300F25A08 /* PFFacebookUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFacebookUtils.m; sourceTree = "<group>"; };
 		81643D761AB79ABD00DD3E65 /* PFFacebookUtils_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PFFacebookUtils_Private.h; path = Internal/PFFacebookUtils_Private.h; sourceTree = "<group>"; };
@@ -208,42 +211,45 @@
 			name = tvOS;
 			sourceTree = "<group>";
 		};
-		8121EA9E1D39862400AC0B02 /* Shared */ = {
+		7916B65D243B9C3F00F6A2EC /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8121EA9F1D39862400AC0B02 /* Common.xcconfig */,
-				8121EAA01D39862400AC0B02 /* Platform */,
-				8121EAA51D39862400AC0B02 /* Product */,
-				8121EAAA1D39862400AC0B02 /* Project */,
-				8121EAAD1D39862400AC0B02 /* Warnings.xcconfig */,
+				7916B65E243B9C3F00F6A2EC /* Common.xcconfig */,
+				7916B65F243B9C3F00F6A2EC /* Platform */,
+				7916B664243B9C3F00F6A2EC /* Product */,
+				7916B669243B9C3F00F6A2EC /* Project */,
+				7916B66C243B9C3F00F6A2EC /* Warnings.xcconfig */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		8121EAA01D39862400AC0B02 /* Platform */ = {
+		7916B65F243B9C3F00F6A2EC /* Platform */ = {
 			isa = PBXGroup;
 			children = (
-				8121EAA11D39862400AC0B02 /* iOS.xcconfig */,
+				7916B660243B9C3F00F6A2EC /* macOS.xcconfig */,
+				7916B661243B9C3F00F6A2EC /* tvOS.xcconfig */,
+				7916B662243B9C3F00F6A2EC /* iOS.xcconfig */,
+				7916B663243B9C3F00F6A2EC /* watchOS.xcconfig */,
 			);
 			path = Platform;
 			sourceTree = "<group>";
 		};
-		8121EAA51D39862400AC0B02 /* Product */ = {
+		7916B664243B9C3F00F6A2EC /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				8121EAA61D39862400AC0B02 /* Application.xcconfig */,
-				8121EAA71D39862400AC0B02 /* DynamicFramework.xcconfig */,
-				8121EAA81D39862400AC0B02 /* LogicTests.xcconfig */,
-				8121EAA91D39862400AC0B02 /* StaticFramework.xcconfig */,
+				7916B665243B9C3F00F6A2EC /* Application.xcconfig */,
+				7916B666243B9C3F00F6A2EC /* DynamicFramework.xcconfig */,
+				7916B667243B9C3F00F6A2EC /* StaticFramework.xcconfig */,
+				7916B668243B9C3F00F6A2EC /* LogicTests.xcconfig */,
 			);
 			path = Product;
 			sourceTree = "<group>";
 		};
-		8121EAAA1D39862400AC0B02 /* Project */ = {
+		7916B669243B9C3F00F6A2EC /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				8121EAAB1D39862400AC0B02 /* Debug.xcconfig */,
-				8121EAAC1D39862400AC0B02 /* Release.xcconfig */,
+				7916B66A243B9C3F00F6A2EC /* Debug.xcconfig */,
+				7916B66B243B9C3F00F6A2EC /* Release.xcconfig */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -323,8 +329,8 @@
 		F52CD63A1B58383C0051AB86 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
+				7916B65D243B9C3F00F6A2EC /* Shared */,
 				4AAEAA92200C025100AA7479 /* ParseFacebookUtilsV4-iOS-Dynamic.xcconfig */,
-				8121EA9E1D39862400AC0B02 /* Shared */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -482,7 +488,6 @@
 /* Begin XCBuildConfiguration section */
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8121EAAB1D39862400AC0B02 /* Debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -498,7 +503,6 @@
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8121EAAC1D39862400AC0B02 /* Release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
