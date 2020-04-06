@@ -73,7 +73,6 @@
 		4A51E4452027CC4E0066DE1A /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E43A2027CC330066DE1A /* ParseFacebookUtilsV4.framework */; platformFilter = ios; };
 		7916B626243B916800F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B625243B916800F6A2EC /* Bolts.framework */; platformFilter = ios; };
 		7916B63E243B934200F6A2EC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; platformFilter = ios; };
-		7916B63F243B934200F6A2EC /* Parse.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A51E45B2027DC000066DE1A /* Parse.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,20 +105,6 @@
 			remoteInfo = "Parse-iOS-Dynamic";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		7916B640243B934200F6A2EC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				7916B63F243B934200F6A2EC /* Parse.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A0ECC73200D993000BA84A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -624,7 +609,6 @@
 				4A0ECC00200D8C0200BA84A3 /* Frameworks */,
 				4A0ECC02200D8C0200BA84A3 /* Headers */,
 				4A0ECC20200D8C0200BA84A3 /* Resources */,
-				7916B640243B934200F6A2EC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
