@@ -23,7 +23,7 @@
 		7916B639243B92EE00F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B638243B92EE00F6A2EC /* Bolts.framework */; platformFilter = ios; };
 		7916B63D243B92F500F6A2EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B63C243B92F500F6A2EC /* UIKit.framework */; platformFilter = ios; };
 		B9312D4923C4A2B5002D4A4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A7EE9D23C497D2003E606E /* SystemConfiguration.framework */; platformFilter = ios; };
-		B9A7EEA523C49956003E606E /* .framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1350512027EA26000F5FD5 /* .framework */; platformFilter = ios; };
+		F3EDC1DD243BADCE00E0A9E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1350512027EA26000F5FD5 /* Parse.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,13 @@
 			containerPortal = 4A1350412027EA26000F5FD5 /* Parse.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 81C5845D1C3B0A98000063C6;
+			remoteInfo = "Parse-iOS-Dynamic";
+		};
+		F3EDC1DB243BADC600E0A9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A1350412027EA26000F5FD5 /* Parse.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C582E11C3B0A98000063C6;
 			remoteInfo = "Parse-iOS-Dynamic";
 		};
 /* End PBXContainerItemProxy section */
@@ -99,7 +106,7 @@
 				7916B63D243B92F500F6A2EC /* UIKit.framework in Frameworks */,
 				B9312D4923C4A2B5002D4A4C /* SystemConfiguration.framework in Frameworks */,
 				7916B622243B914200F6A2EC /* FBSDKCoreKit.framework in Frameworks */,
-				B9A7EEA523C49956003E606E /* .framework in Frameworks */,
+				F3EDC1DD243BADCE00E0A9E9 /* Parse.framework in Frameworks */,
 				7916B620243B914200F6A2EC /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +159,7 @@
 		4A1350422027EA26000F5FD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A1350512027EA26000F5FD5 /* .framework */,
+				4A1350512027EA26000F5FD5 /* Parse.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -369,6 +376,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				F3EDC1DC243BADC600E0A9E9 /* PBXTargetDependency */,
 			);
 			name = "ParseFacebookUtilsV4-iOS-Dynamic";
 			productName = Breakpad;
@@ -421,10 +429,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4A1350512027EA26000F5FD5 /* .framework */ = {
+		4A1350512027EA26000F5FD5 /* Parse.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = .framework;
+			path = Parse.framework;
 			remoteRef = 4A1350502027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -484,6 +492,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3EDC1DC243BADC600E0A9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Parse-iOS-Dynamic";
+			targetProxy = F3EDC1DB243BADC600E0A9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB922308733DC00010E9CD /* Debug */ = {
