@@ -1,2 +1,0 @@
-github "parse-community/Bolts-ObjC" ~> 1.9.1
-binary "./Facebook.json" ~> 6.3.0
