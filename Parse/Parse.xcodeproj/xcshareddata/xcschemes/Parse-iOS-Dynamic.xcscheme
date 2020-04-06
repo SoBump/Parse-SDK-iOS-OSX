@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1120"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81C582E11C3B0A98000063C6"
-               BuildableName = "Parse.framework"
+               BuildableName = ".framework"
                BlueprintName = "Parse-iOS-Dynamic"
                ReferencedContainer = "container:Parse.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81C582E11C3B0A98000063C6"
-            BuildableName = "Parse.framework"
+            BuildableName = ".framework"
             BlueprintName = "Parse-iOS-Dynamic"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81C582E11C3B0A98000063C6"
-            BuildableName = "Parse.framework"
+            BuildableName = ".framework"
             BlueprintName = "Parse-iOS-Dynamic"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>

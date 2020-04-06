@@ -23,7 +23,7 @@
 		7916B639243B92EE00F6A2EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B638243B92EE00F6A2EC /* Bolts.framework */; platformFilter = ios; };
 		7916B63D243B92F500F6A2EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B63C243B92F500F6A2EC /* UIKit.framework */; platformFilter = ios; };
 		B9312D4923C4A2B5002D4A4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A7EE9D23C497D2003E606E /* SystemConfiguration.framework */; platformFilter = ios; };
-		B9A7EEA523C49956003E606E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1350512027EA26000F5FD5 /* Parse.framework */; platformFilter = ios; };
+		B9A7EEA523C49956003E606E /* .framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1350512027EA26000F5FD5 /* .framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +99,7 @@
 				7916B63D243B92F500F6A2EC /* UIKit.framework in Frameworks */,
 				B9312D4923C4A2B5002D4A4C /* SystemConfiguration.framework in Frameworks */,
 				7916B622243B914200F6A2EC /* FBSDKCoreKit.framework in Frameworks */,
-				B9A7EEA523C49956003E606E /* Parse.framework in Frameworks */,
+				B9A7EEA523C49956003E606E /* .framework in Frameworks */,
 				7916B620243B914200F6A2EC /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,7 +152,7 @@
 		4A1350422027EA26000F5FD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A1350512027EA26000F5FD5 /* Parse.framework */,
+				4A1350512027EA26000F5FD5 /* .framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -421,10 +421,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4A1350512027EA26000F5FD5 /* Parse.framework */ = {
+		4A1350512027EA26000F5FD5 /* .framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Parse.framework;
+			path = .framework;
 			remoteRef = 4A1350502027EA26000F5FD5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -488,6 +488,7 @@
 /* Begin XCBuildConfiguration section */
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7916B66A243B9C3F00F6A2EC /* Debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -503,6 +504,7 @@
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7916B66B243B9C3F00F6A2EC /* Release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_CODE_COVERAGE = NO;
