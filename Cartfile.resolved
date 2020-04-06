@@ -1,2 +1,2 @@
-binary "Facebook.json" "6.3.0"
+binary "./Facebook.json" "6.3.0"
 github "parse-community/Bolts-ObjC" "1.9.1"
