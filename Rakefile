@@ -33,7 +33,6 @@ module Constants
     File.join(script_folder, 'Parse','Parse', 'Resources', 'Parse-tvOS.Info.plist'),
     File.join(script_folder, 'ParseFacebookUtils', 'Resources', 'Info-iOS.plist'),
     File.join(script_folder, 'ParseFacebookUtils', 'Resources', 'Info-tvOS.plist'),
-    File.join(script_folder, 'ParseTwitterUtils', 'Resources', 'Info.plist'),
     File.join(script_folder, 'ParseUI', 'Resources', 'Info.plist'),
     File.join(script_folder, 'ParseStarterProject', 'iOS', 'ParseStarterProject', 'Resources', 'Info.plist'),
     File.join(script_folder, 'ParseStarterProject', 'iOS', 'ParseStarterProject-Swift', 'Resources', 'Info.plist'),
@@ -194,27 +193,6 @@ namespace :build do
     end
   end
 
-  namespace :twitter_utils do
-    desc 'Build iOS TwitterUtils framework.'
-    task :ios do
-      task = XCTask::BuildFrameworkTask.new do |t|
-        t.directory = script_folder
-        t.build_directory = File.join(build_folder, 'iOS')
-        t.framework_type = XCTask::FrameworkType::IOS
-        t.framework_name = 'ParseTwitterUtils.framework'
-        t.workspace = 'Parse.xcworkspace'
-        t.scheme = 'ParseTwitterUtils-iOS'
-        t.configuration = 'Release'
-      end
-
-      result = task.execute
-      unless result
-        puts 'Failed to build iOS TwitterUtils Framework.'
-        exit(1)
-      end
-    end
-  end
-
   namespace :parseui do
     task :framework do
       task = XCTask::BuildFrameworkTask.new do |t|
@@ -350,10 +328,6 @@ namespace :package do
     Rake::Task['build:facebook_utils:ios'].invoke
     ios_fb_utils_framework_path = File.join(build_folder, 'iOS', 'ParseFacebookUtilsV4.framework')
     make_package(release_folder, [ios_fb_utils_framework_path], 'ParseFacebookUtils-iOS.zip')
-
-    Rake::Task['build:twitter_utils:ios'].invoke
-    ios_tw_utils_framework_path = File.join(build_folder, 'iOS', 'ParseTwitterUtils.framework')
-    make_package(release_folder, [ios_tw_utils_framework_path], 'ParseTwitterUtils-iOS.zip')
 
     Rake::Task['build:facebook_utils:tvos'].invoke
     tvos_fb_utils_framework_path = File.join(build_folder, 'tvOS', 'ParseFacebookUtilsV4.framework')
@@ -525,32 +499,6 @@ namespace :test do
       result = task.execute
       unless result
         puts 'Failed to build iOS FacebookUtils Framework.'
-        exit(1)
-      end
-    end
-  end
-
-  namespace :twitter_utils do
-    desc 'Test iOS TwitterUtils framework.'
-    task :ios do
-      task = XCTask::BuildTask.new do |t|
-        t.directory = script_folder
-        t.workspace = 'Parse.xcworkspace'
-
-        t.scheme = 'ParseTwitterUtils-iOS'
-        t.sdk = 'iphonesimulator'
-        t.destinations = [ios_simulator]
-        t.configuration = 'Debug'
-        t.additional_options = { "GCC_INSTRUMENT_PROGRAM_FLOW_ARCS" => "YES",
-                                 "GCC_GENERATE_TEST_COVERAGE_FILES" => "YES" }
-
-        t.actions = [XCTask::BuildAction::TEST]
-        t.formatter = XCTask::BuildFormatter::XCPRETTY
-      end
-
-      result = task.execute
-      unless result
-        puts 'Failed to build iOS TwitterUtils Framework.'
         exit(1)
       end
     end

@@ -1,2 +1,2 @@
-github "facebook/facebook-objc-sdk" "v5.15.1"
+binary "vendor/CarthageBinaries/Facebook.json" "6.3.0"
 github "parse-community/Bolts-ObjC" "1.9.1"
