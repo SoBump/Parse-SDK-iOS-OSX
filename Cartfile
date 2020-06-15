@@ -1,2 +1,2 @@
 github "parse-community/Bolts-ObjC" ~> 1.9.1
-binary "vendor/CarthageBinaries/Facebook.json" ~> 6.3.0
+binary "vendor/CarthageBinaries/Facebook.json" ~> 7.0.1
