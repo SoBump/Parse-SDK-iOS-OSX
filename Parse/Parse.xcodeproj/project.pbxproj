@@ -2592,10 +2592,10 @@
 			baseConfigurationReference = 81C582DE1C3B0A40000063C6 /* Parse-iOS-Dynamic.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CURRENT_PROJECT_VERSION = 1.17.6;
+				CURRENT_PROJECT_VERSION = 1.17.7;
 				INFOPLIST_FILE = "$(SRCROOT)/Parse/Resources/Parse-iOS.Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.17.6;
+				MARKETING_VERSION = 1.17.7;
 			};
 			name = Debug;
 		};
@@ -2642,10 +2642,10 @@
 			baseConfigurationReference = 81C582DE1C3B0A40000063C6 /* Parse-iOS-Dynamic.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CURRENT_PROJECT_VERSION = 1.17.6;
+				CURRENT_PROJECT_VERSION = 1.17.7;
 				INFOPLIST_FILE = "$(SRCROOT)/Parse/Resources/Parse-iOS.Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.17.6;
+				MARKETING_VERSION = 1.17.7;
 			};
 			name = Release;
 		};

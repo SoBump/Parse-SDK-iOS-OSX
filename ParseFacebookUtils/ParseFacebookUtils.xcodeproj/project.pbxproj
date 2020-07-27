@@ -540,9 +540,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAEAA92200C025100AA7479 /* ParseFacebookUtilsV4-iOS-Dynamic.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1.17.6;
+				CURRENT_PROJECT_VERSION = 1.17.7;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.17.6;
+				MARKETING_VERSION = 1.17.7;
 			};
 			name = Debug;
 		};
@@ -550,9 +550,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAEAA92200C025100AA7479 /* ParseFacebookUtilsV4-iOS-Dynamic.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1.17.6;
+				CURRENT_PROJECT_VERSION = 1.17.7;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.17.6;
+				MARKETING_VERSION = 1.17.7;
 			};
 			name = Release;
 		};
