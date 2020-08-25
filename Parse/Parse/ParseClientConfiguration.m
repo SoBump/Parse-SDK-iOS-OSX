@@ -126,17 +126,19 @@ NSString *const _ParseDefaultServerURLString = @"https://api.parse.com/1";
 ///--------------------------------------
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    return [ParseClientConfiguration configurationWithBlock:^(ParseClientConfiguration *configuration) {
+    return [ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+        ParseClientConfiguration *selfConfiguration = (ParseClientConfiguration *)configuration;
+
         // Use direct assignment to skip over all of the assertions that may fail if we're not fully initialized yet.
-        configuration->_applicationId = [self->_applicationId copy];
-        configuration->_clientKey = [self->_clientKey copy];
-        configuration->_server = [self.server copy];
-        configuration->_fileUploadController = self->_fileUploadController;
-        configuration->_localDatastoreEnabled = self->_localDatastoreEnabled;
-        configuration->_applicationGroupIdentifier = [self->_applicationGroupIdentifier copy];
-        configuration->_containingApplicationBundleIdentifier = [self->_containingApplicationBundleIdentifier copy];
-        configuration->_networkRetryAttempts = self->_networkRetryAttempts;
-        configuration->_URLSessionConfiguration = self->_URLSessionConfiguration;
+        selfConfiguration->_applicationId = [self->_applicationId copy];
+        selfConfiguration->_clientKey = [self->_clientKey copy];
+        selfConfiguration->_server = [self.server copy];
+        selfConfiguration->_fileUploadController = self->_fileUploadController;
+        selfConfiguration->_localDatastoreEnabled = self->_localDatastoreEnabled;
+        selfConfiguration->_applicationGroupIdentifier = [self->_applicationGroupIdentifier copy];
+        selfConfiguration->_containingApplicationBundleIdentifier = [self->_containingApplicationBundleIdentifier copy];
+        selfConfiguration->_networkRetryAttempts = self->_networkRetryAttempts;
+        selfConfiguration->_URLSessionConfiguration = self->_URLSessionConfiguration;
     }];
 }
 
