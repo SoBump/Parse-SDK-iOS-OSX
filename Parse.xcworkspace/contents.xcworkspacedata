@@ -121,9 +121,6 @@
       </Group>
    </Group>
    <FileRef
-      location = "group:ParseFacebookUtils/ParseFacebookUtils.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ParseUI/ParseUI.xcodeproj">
    </FileRef>
 </Workspace>
